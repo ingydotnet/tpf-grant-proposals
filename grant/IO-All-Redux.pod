@@ -57,6 +57,8 @@ perfect way to encode almost all of Perl IO needs. In other words:
 
 =item * Defaults are sane
 
+=item * Mo(o(se)) compatible OO
+
 =item * Weirder stuff like operator overloads need not be turned on explicitly
 
 =back
@@ -68,9 +70,6 @@ installs a new IO::All. This is tested in beta until deemed safe to release
 properly as the new IO-All dist.
 
 Current IO::All plugins are revised to the new strategy.
-
-The L<IO::All::Filesys> which provides the most common operations should
-become based on L<Filesys::POSIX>.
 
 =head2 Project Details
 
@@ -93,8 +92,6 @@ See:
 =item * Write tests for new behaviors.
 
 =item * Refactor the code to match the new design.
-
-=item * Integrate Filesys::POSIX for appropriate operations
 
 =item * Port current IO::All extension modules to new design
 

@@ -22,7 +22,7 @@ See http://github.com/ingydotnet/swim-pm#readme
 
 =item Amount Requested
 
-USD $3000
+USD $3500
 
 
 =back

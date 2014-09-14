@@ -28,6 +28,7 @@ perfect way to encode almost all of Perl IO needs. In other words:
 * Stays simple for 1-liners (small needs)
 * Internals are all plugin based rather than semi-hardcoded
 * Defaults are sane
+* Mo(o(se)) compatible OO
 * Weirder stuff like operator overloads need not be turned on explicitly
 
 == Deliverables
@@ -37,9 +38,6 @@ installs a new IO::All. This is tested in beta until deemed safe to release
 properly as the new IO-All dist.
 
 Current IO::All plugins are revised to the new strategy.
-
-The [IO::All::Filesys] which provides the most common operations should become
-based on [Filesys::POSIX].
 
 == Project Details
 
@@ -54,7 +52,6 @@ See:
   community immediately.
 * Write tests for new behaviors.
 * Refactor the code to match the new design.
-* Integrate Filesys::POSIX for appropriate operations
 * Port current IO::All extension modules to new design
 * Get people on #io-all IRC channel and beyond to test the rewrite
 * Release as IO-All when deemed ready
