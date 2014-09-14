@@ -24,7 +24,7 @@ Where Pod falls down is on syntax. The syntax is so verbose that common idioms
 (like creating lists of lists) are often avoided because they are to hard to
 write.
 
-Many Perl people use Markdown which offers simpler syntax, but lack many of
+Many Perl people use Markdown which offers simpler syntax, but lacks many of
 the common semantic idioms in Pod. For instance, Markdown has no ability to do
 'Data Definition' lists that are so common in CPAN docs (`dl/dt/dd` HTML
 tags). Markdown is also weak in nesting semantic blocks.
@@ -96,7 +96,7 @@ David Oswald has been a Perl user for over a decade, is an author of several
 CPAN modules, and maintainer of more.  David also runs Salt Lake Perl Mongers.
 
 Ingy and David work well together and have decided to collaborate on a number
-of big projects that benefit Perl and Software Development.
+of projects that will benefit Perl and Software Development.
 
 == Notes
 

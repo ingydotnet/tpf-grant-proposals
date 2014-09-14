@@ -49,9 +49,9 @@ See:
 == Inch-stones
 
 * Create Alt-IO-All-Redux dist so that new code can be used and tested by the
-  community immediately.
-* Write tests for new behaviors.
-* Refactor the code to match the new design.
+  community immediately
+* Write tests for new behaviors
+* Refactor the code to match the new design
 * Port current IO::All extension modules to new design
 * Get people on #io-all IRC channel and beyond to test the rewrite
 * Release as IO-All when deemed ready
@@ -72,8 +72,7 @@ Ingy döt Net wrote IO::All in 2004. Of his many CPAN modules, it is probably
 one of the 3 most popular.
 
 David Oswald has been a Perl user for over a decade, is an author of several
-CPAN modules, and maintainer of more.  David also runs Salt Lake Perl
-Mongers.
+CPAN modules, and maintainer of more.  David also runs Salt Lake Perl Mongers.
 
 Ingy and David work well together and have decided to collaborate on a number
-of big projects that benefit Perl and Software Development.
+of projects that will benefit Perl and Software Development.

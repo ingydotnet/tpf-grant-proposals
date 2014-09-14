@@ -22,7 +22,7 @@ Perl has four major YAML implementations:
 
 They all have major incompatabilities. In the past year the #yaml channel on
 irc.perl.org has gotten all the right people together to resolve this. A great
-first step would be to make the two pure Perl implementations [YAML] and
+next step would be to make the two pure Perl implementations [YAML] and
 [YAML::Tiny] be grammar driven.
 
 [Pegex] is a Perl 6 Rules inspired framework that greatly lowers the barriers
@@ -83,8 +83,7 @@ Ingy döt Net invented the YAML language, is the author and maintainer of
 [YAML::Tiny]. He also is the creator of the Pegex parsing framework.
 
 David Oswald has been a Perl user for over a decade, is an author of several
-CPAN modules, and maintainer of more.  David also runs Salt Lake Perl
-Mongers.
+CPAN modules, and maintainer of more. David also runs Salt Lake Perl Mongers.
 
 Ingy and David work well together and have decided to collaborate on a number
-of big projects that benefit Perl and Software Development.
+of projects that will benefit Perl and Software Development.

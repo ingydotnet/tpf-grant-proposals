@@ -87,11 +87,11 @@ See:
 
 =over
 
-=item * Create Alt-IO-All-Redux dist so that new code can be used and tested by the community immediately.
+=item * Create Alt-IO-All-Redux dist so that new code can be used and tested by the community immediately
 
-=item * Write tests for new behaviors.
+=item * Write tests for new behaviors
 
-=item * Refactor the code to match the new design.
+=item * Refactor the code to match the new design
 
 =item * Port current IO::All extension modules to new design
 
@@ -120,6 +120,6 @@ David Oswald has been a Perl user for over a decade, is an author of several
 CPAN modules, and maintainer of more. David also runs Salt Lake Perl Mongers.
 
 Ingy and David work well together and have decided to collaborate on a number
-of big projects that benefit Perl and Software Development.
+of projects that will benefit Perl and Software Development.
 
 =cut
