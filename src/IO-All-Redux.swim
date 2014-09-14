@@ -1,0 +1,82 @@
+= IO::All Redux
+
+- Name
+
+  * Ingy döt Net
+  * David Oswald
+
+- Amount Requested :: USD $3,000
+
+== Synopsis
+
+Rewrite IO::All to match the needs of 10 years experience.
+
+== Benefits to the Perl Community
+
+IO::All is a Perl module that attempts to make all Input/Output operations in
+Perl, as simple, normal, and uniform as possible. IO::All has been in
+existence since 2004. It is useful and somewhat extensible, but has a number
+of inconsistencies, flaws and misgivings.
+
+The proposal is the refactor and/or rewrite the IO::All code to become the
+perfect way to encode almost all of Perl IO needs. In other words:
+
+* All things are done safely
+* Unicode issues are all handled correctly
+* Options have the proper scope (lexical/package/object)
+* Can be used safely in production
+* Stays simple for 1-liners (small needs)
+* Internals are all plugin based rather than semi-hardcoded
+* Defaults are sane
+* Weirder stuff like operator overloads need ot be turned on explicitly
+
+== Deliverables
+
+Using the [Alt] module strategy, we deliver an [Alt-IO-All-Redux] dist that
+installs a new IO::All. This is tested in beta until deemed safe to release
+properly as the new IO-All dist.
+
+Current IO::All plugins are revised to the new strategy.
+
+The [IO::All::Filesys] which provides the most common operations should become
+based on [Filesys::POSIX].
+
+== Project Details
+
+See:
+
+* https://github.com/ingydotnet/io-all-pm#readme
+* https://raw.githubusercontent.com/ingydotnet/io-all-pm/master/note/Design.swim
+
+== Inch-stones
+
+* Create Alt-IO-All-Redux dist so that new code can be used and tested by the
+  community immediately.
+* Write tests for new behaviors.
+* Refactor the code to match the new design.
+* Integrate Filesys::POSIX for appropriate operations
+* Port current IO::All extension modules to new design
+* Get people on #io-all IRC channel and beyond to test the rewrite
+* Release as IO-All when deemed ready
+
+== Project Schedule
+
+This project will take 2 months and can be started immediately upon
+acceptance.
+
+== Completeness Criteria
+
+Alt-IO-All-Redux passes all tests, is vetted by the community and is released
+to CPAN as the new IO-All dist.
+
+== Bio
+
+Ingy döt Net wrote IO::All in 2004. Of his many CPAN modules, it is probably
+one of the 3 most popular.
+
+David Oswald has been a Perl user for over a decade, is an author of several
+CPAN modules, and maintainer of more.  David also runs Salt Lake Perl
+Mongers.
+
+Ingy and David work well together and have decided to collaborate on a number
+of big projects that benefit Perl and Software Development.

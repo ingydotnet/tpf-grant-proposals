@@ -1,0 +1,90 @@
+= Pegex Grammar for YAML
+
+- Name:
+
+  * Ingy döt Net
+  * David Oswald
+
+- Amount Requested :: USD $3000
+
+== Synopsis
+
+Make YAML.pm and YAML::Tiny driven by a common formal grammar.
+
+== Benefits to the Perl Community
+
+Perl has four major YAML implementations:
+
+* [YAML]
+* [YAML::Tiny]
+* [YAML::XS]
+* [YAML::Syck]
+
+They all have major incompatabilities. In the past year the #yaml channel on
+irc.perl.org has gotten all the right people together to resolve this. A great
+first step would be to make the two pure Perl implementations [YAML] and
+[YAML::Tiny] be grammar driven.
+
+[Pegex] is a Perl 6 Rules inspired framework that greatly lowers the barriers
+to writing parsers. The main goal of Pegex is to make grammars for parsing a
+language or syntax be as human friendly as possible. Pegex is also extremely
+fast for pure Perl code.
+
+By having the Load functions for [YAML] and [YAML::Tiny] be grammar driven,
+the following benefits would occur:
+
++ Both modules would parse the same YAML exactly the same
++ Bugs could easily be fixed for both modules in the same grammar
++ YAML::Tiny would be tinyer
++ YAML.pm would become faster
+
+== Deliverables
+
+This project will provide:
+
+* Pegex grammar for YAML
+* [YAML] and [YAML::Tiny] parser/loaders based on the grammar
+* Common test suite proving compatability
+
+== Project Details
+
+Pegex is four years old, and has several CPAN modules based on it. It makes
+language defining grammars appear crystal clear. It has undergone an
+optimization development phase that makes it very fast.
+
+Recent work was done to get YAML indentation working in Pegex. This was a
+major hurdle. This is now a good time to make a complete YAML grammar. Since
+Pegex works in many languages, eventually there will be exactly compatible
+YAML parsers in Perl, Python, RUby, JS, etc.
+
+== Inch-stones
+
+* Write a grammar for YAML in Pegex
+  * Grammar will be well documented
+  * Each grammar rule will be tested
+* Convert [YAML] to use the grammar for its loader
+* Convert [YAML::Tiny] to use (a subset of) the grammar for its loader
+* Both modules pass a common test suite
+
+== Project Schedule
+
+This project will take 2-3 months and can be started immediately upon
+acceptance.
+
+== Completeness Criteria
+
+Both modules released to CPAN, using the new Pegex grammar and passing the
+same tests. Pegex/YAML grammar published in its own GitHub repo.
+
+== Bio
+
+Ingy döt Net invented the YAML language, is the author and maintainer of
+[YAML] and [YAML::XS] and is one of he people currently actively maintaining
+[YAML::Tiny]. He also is the creator of the Pegex parsing framework.
+
+David Oswald has been a Perl user for over a decade, is an author of several
+CPAN modules, and maintainer of more.  David also runs Salt Lake Perl
+Mongers.
+
+Ingy and David work well together and have decided to collaborate on a number
+of big projects that benefit Perl and Software Development.
