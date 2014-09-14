@@ -28,7 +28,7 @@ perfect way to encode almost all of Perl IO needs. In other words:
 * Stays simple for 1-liners (small needs)
 * Internals are all plugin based rather than semi-hardcoded
 * Defaults are sane
-* Weirder stuff like operator overloads need ot be turned on explicitly
+* Weirder stuff like operator overloads need not be turned on explicitly
 
 == Deliverables
 

@@ -57,7 +57,7 @@ perfect way to encode almost all of Perl IO needs. In other words:
 
 =item * Defaults are sane
 
-=item * Weirder stuff like operator overloads need ot be turned on explicitly
+=item * Weirder stuff like operator overloads need not be turned on explicitly
 
 =back
 
