@@ -55,7 +55,7 @@ optimization development phase that makes it very fast.
 Recent work was done to get YAML indentation working in Pegex. This was a
 major hurdle. This is now a good time to make a complete YAML grammar. Since
 Pegex works in many languages, eventually there will be exactly compatible
-YAML parsers in Perl, Python, RUby, JS, etc.
+YAML parsers in Perl, Python, Ruby, JS, etc.
 
 == Inch-stones
 
